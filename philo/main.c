@@ -32,6 +32,7 @@ int	main(int argc, char **argv)
 {
 	t_data	*data;
 
+	printf("Salut\n");
 	data = parse_args(argc, argv);
 	if (!data)
 		return (1);
